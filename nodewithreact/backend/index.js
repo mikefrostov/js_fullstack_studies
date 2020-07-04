@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.send({ h1: 'dummy' });
 });
 
-app.listen(5001 , function(){
+//getting port from environment variable PORT or 5001
+const PORT = process.env.PORT || 5001;
+
+
+app.listen(PORT , function(){
     console.log('Server running on 5001...');
 });
