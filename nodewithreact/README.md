@@ -1,1 +1,1 @@
-# for this app we will us [react] -> [expressjs] -> [mogodb]
+# for this app we will us [react] -> (http json) -> [expressjs] -> [mogodb]
